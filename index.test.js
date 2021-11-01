@@ -10,5 +10,5 @@ test('response init', async () => {
 
 test('end point youtube', async() => {
     const response = await request.get("/youtube");
-    expect(response.text).toBe('Hello Youtuber!')
+    expect(response.text).toBe('Hello Youtube!')
 })
